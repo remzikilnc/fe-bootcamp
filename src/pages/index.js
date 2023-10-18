@@ -18,6 +18,10 @@ export default function Home() {
     setTodo('');
   }
 
+
+  const handleDelete = (id) => {
+    setTodos(todos.filter((todo) => todo.id !== id));
+  }
   return (
     <main className="flex h-screen flex-col items-center justify-center">
       <div className="bg-gray-900 shadow sm:rounded-md max-w-3xl w-full relative">
@@ -43,7 +47,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="flex flex-col justify-center items-center px-4 py-4 sm:px-6">
-                    <DeleteButton/>
+                    <DeleteButton onClick={() => handleDelete(todo.id)}/>
                   </div>
                 </div>
               </li>
