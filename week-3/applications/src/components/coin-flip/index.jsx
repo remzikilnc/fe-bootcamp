@@ -32,21 +32,21 @@ const CoinFlip = () => {
   return (
     <section className="section">
      <div className="card">
-         <h1 className="section-title">Yazı Tura</h1>
+         <h1 className="section-title">Heads or Tails</h1>
          <Coin currentStatus={currentStatus} prepareStatus={prepareStatus} rotate={rotate} />
-         <PrimaryButton className="coinflip-button" disabled={isFlipping} onClick={flipCoin} >Atış Yap</PrimaryButton>
+         <PrimaryButton className="coinflip-button" disabled={isFlipping} onClick={flipCoin} >Flip</PrimaryButton>
          <div>
              <p>
                  <span className="font-semibold mr-2">{results.length}</span>
-                 atış yapıldı
+                 flips were made
              </p>
              <p>
                  <span className="font-semibold mr-2">{results.filter(result => result === 'yazi').length}</span>
-                  kez yazı geldi
+                 times heads
              </p>
              <p>
                  <span className="font-semibold mr-2">{results.filter(result => result === 'tura').length}</span>
-                  kez tura geldi
+                 times tails
              </p>
          </div>
      </div>
