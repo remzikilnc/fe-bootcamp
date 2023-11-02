@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import PrimaryButton from "./button/primary-button/index.jsx";
 
-const Text = ({ placeholder }) => {
+const StateTextComponent = ({ placeholder }) => {
   const [text, setText] = useState('');
 
   const handleChange = (event) => {
@@ -20,4 +20,4 @@ const Text = ({ placeholder }) => {
   );
 };
 
-export default Text;
+export default StateTextComponent;
