@@ -8,8 +8,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App.jsx'
 import './index.css'
-import StateTextComponent from "./components/state-text-component.jsx";
-import Counter from "./components/counter.jsx";
+import StateTextComponent from "./components/state-text/state-text-component.jsx";
+import Counter from "./components/counter/counter.jsx";
+import BurgerApplication from "./components/burger-application/index.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                 <Route path="/coin-flip" element={<CoinFlip />} />
                 <Route path="/use-state-text" element={<StateTextComponent placeholder="Type something.."/>} />
                 <Route path="/counter" element={<Counter/>} />
+                <Route path="/burger-application" element={<BurgerApplication/>} />
             </Routes>
         </Router>
     </React.StrictMode>

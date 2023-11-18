@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import PrimaryButton from "./button/primary-button/index.jsx";
+import PrimaryButton from "../button/primary-button/index.jsx";
 
 const StateTextComponent = ({ placeholder }) => {
   const [text, setText] = useState('');

@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import PrimaryButton from "./button/primary-button/index.jsx";
-import SecondaryButton from "./button/secondary-button/index.jsx";
+import PrimaryButton from "../button/primary-button/index.jsx";
+import SecondaryButton from "../button/secondary-button/index.jsx";
 
-const Counter = ({ initialCount, minCount, maxCount }) => {
+const Counter = ({ initialCount = 0, minCount = 0, maxCount = 10 }) => {
   const [count, setCount] = useState(initialCount);
 
   const increment = () => {

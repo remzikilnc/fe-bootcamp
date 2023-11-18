@@ -1,0 +1,50 @@
+.burger__lettuce {
+    width: 34vmin;
+    height: 2.5vmin;
+    border-radius: 0.8vmin;
+    background-color: #72b43e;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 0;
+    transition-property: margin-bottom;
+    transition-duration: 500ms;
+}
+.burger__lettuce:hover {
+    margin-bottom: 2.5vmin;
+    cursor: pointer;
+    transition-property: margin-bottom;
+    transition-duration: 500ms;
+}
+
+.lettuce1,
+.lettuce2,
+.lettuce3,
+.lettuce4,
+.lettuce5 {
+    width: 8.8vmin;
+    height: 4.5vmin;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #72b43e;
+    top: 0;
+}
+
+.lettuce1 {
+    right: 0.01vmin;
+}
+
+.lettuce2 {
+    right: 5.5vmin;
+}
+
+.lettuce3 {
+    right: 12vmin;
+}
+
+.lettuce4 {
+    right: 18.5vmin;
+}
+
+.lettuce5 {
+    right: 25.19vmin;
+}

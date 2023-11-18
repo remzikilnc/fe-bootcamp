@@ -4,7 +4,7 @@ import CoinHead from '../../../assets/img/head.png';
 
 const Coin = ({currentStatus,prepareStatus, rotate}) => {
     return (
-        <div className="coin-container">
+        <div className="coin-container h-[260px]">
             <div className={`coin ${rotate && 'coin-rotate'}`}>
                <div className="coin-tails">
                    <img
@@ -13,7 +13,7 @@ const Coin = ({currentStatus,prepareStatus, rotate}) => {
                        className={currentStatus === 'yazi' ? 'coin-back' : 'coin-front'}
                    ></img>
                </div>
-                <div className="coin-heads">
+                <div className="coin-heads ">
                     <img
                         src={CoinHead}
                         alt=""

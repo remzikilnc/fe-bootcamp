@@ -1,0 +1,86 @@
+.burger__buntop {
+    width: 35vmin;
+    height: 15vmin;
+    border-radius: 50vmin 50vmin 3vmin 3vmin;
+    background-color: #ee9d2e;
+    position: relative;
+    margin-bottom: 0;
+    transition-property: margin-bottom;
+    transition-duration: 500ms;
+}
+.burger__buntop:hover {
+    margin-bottom: 2.5vmin;
+    cursor: pointer;
+    transition-property: margin-bottom;
+    transition-duration: 500ms;
+}
+
+.buntop__seed,
+.buntop__seed1,
+.buntop__seed2,
+.buntop__seed3,
+.buntop__seed4,
+.buntop__seed5,
+.buntop__seed6,
+.buntop__seed7,
+.buntop__seed8,
+.buntop__seed9,
+.buntop__seed10 {
+    width: 0.6vmin;
+    height: 0.8vmin;
+    border-radius: 100%;
+    background-color: #f4c34e;
+    position: absolute;
+    left: 8vmin;
+    top: 4vmin;
+}
+
+.buntop__seed1 {
+    left: 11vmin;
+    top: 6.5vmin;
+}
+
+.buntop__seed2 {
+    left: 14vmin;
+    top: 1.8vmin;
+}
+
+.buntop__seed3 {
+    left: 20vmin;
+    top: 3vmin;
+}
+
+.buntop__seed4 {
+    left: 26vmin;
+    top: 4.5vmin;
+}
+
+.buntop__seed5 {
+    left: 23vmin;
+    top: 8.5vmin;
+}
+
+.buntop__seed6 {
+    left: 17vmin;
+    top: 7vmin;
+}
+
+.buntop__seed7 {
+    left: 5vmin;
+    top: 9vmin;
+}
+
+.buntop__seed8 {
+    left: 29vmin;
+    top: 10vmin;
+}
+
+.buntop__seed9 {
+    left: 10vmin;
+    top: 11vmin;
+}
+
+.buntop__seed10 {
+    left: 19vmin;
+    top: 12vmin;
+}

@@ -1,0 +1,18 @@
+.burger__cheese {
+    width: 34vmin;
+    height: 2vmin;
+    border-radius: 2vmin;
+    background-color: #f2d658;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0;
+    transition-property: margin-bottom;
+    transition-duration: 500ms;
+}
+
+.burger__cheese:hover {
+    margin-bottom: 1.5vmin;
+    cursor: pointer;
+    transition-property: margin-bottom;
+    transition-duration: 500ms;
+}

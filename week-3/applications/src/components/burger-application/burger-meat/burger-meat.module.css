@@ -1,0 +1,16 @@
+.burger__meat {
+    width: 34vmin;
+    height: 5.5vmin;
+    border-radius: 50vmin;
+    background-color: #6f4718;
+    position: relative;
+    margin-bottom: 0;
+    transition-property: margin-bottom;
+    transition-duration: 500ms;
+}
+.burger__meat:hover {
+    margin-bottom: 2.5vmin;
+    cursor: pointer;
+    transition-property: margin-bottom;
+    transition-duration: 500ms;
+}

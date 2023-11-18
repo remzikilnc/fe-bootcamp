@@ -1,0 +1,16 @@
+.burger__tomato {
+    width: 34vmin;
+    height: 2.8vmin;
+    border-bottom: 0.5vmin solid #af3030;
+    background-color: #b4322e;
+    border-radius: 0.8vmin;
+    margin-bottom: 0;
+    transition-property: margin-bottom;
+    transition-duration: 500ms;
+}
+.burger__tomato:hover{
+    margin-bottom: 2.5vmin;
+    cursor: pointer;
+    transition-property: margin-bottom;
+    transition-duration: 500ms;
+}

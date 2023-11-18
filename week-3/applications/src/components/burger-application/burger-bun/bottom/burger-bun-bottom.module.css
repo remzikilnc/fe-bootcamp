@@ -1,0 +1,8 @@
+.burger__bunbottom {
+    width: 34.2vmin;
+    height: 5.5vmin;
+    border-radius: 2vmin 2vmin 50vmin 50vmin;
+    background-color: #ee9d2e;
+    position: relative;
+    top: 0.1vmin;
+}
