@@ -33,14 +33,6 @@ const weeks = [
                 desc: 'Burger Application',
                 href: '/burger-application',
             },
-            // Diğer bileşenler buraya eklenebilir.
-        ],
-    },
-    {
-        weekNumber: 4,
-        // Week 4 için bileşenler buraya eklenebilir.
-        components: [
-            // Bileşen objeleri buraya eklenebilir.
         ],
     },
 ];
